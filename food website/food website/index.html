@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!----------------------Style-link-------------------------->
+    <link rel="stylesheet" href="style.css">
+    <!----------------------Icons-links-------------------------->
+    <script src="https://kit.fontawesome.com/ff755fe771.js" crossorigin="anonymous"></script>
+    <!----------------------Google-Font-links-------------------------->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;1,800&family=Open+Sans:wght@400;600&display=swap"
+        rel="stylesheet">
+    <title>Responsive Food Website</title>
+</head>
+
+<body>
+    <!--======side-bar========-->
+    <div class="main-div">
+        <div class="left-links">
+            <div class="sidebar">
+                <!---Logo-->
+                <h1>FoodTime</h1>
+                <!--List of menus-->
+                <div class="sidebar-menus">
+                    <a href="#"><i class="fa-solid fa-house"></i>Home</a>
+                    <a href="#"><i class="fa-solid fa-money-bill-1-wave"></i>Bills</a>
+                    <a href="#"><i class="fa-solid fa-wallet"></i>Wallet</a>
+                    <a href="#"><i class="fa-solid fa-envelope"></i>Notification</a>
+                    <a href="#"><i class="fa-regular fa-address-book"></i>Contact Us</a>
+                    <a href="#"><i class="fa-solid fa-gear"></i>Setting</a>
+                </div>
+                <!--Logout-->
+                <div class="sidebar-logout">
+                    <a href="#"><i class="fa-solid fa-right-from-bracket"></i>Logout</a>
+                </div>
+
+
+            </div>
+        </div>
+
+        <!--------------======Containt-div=======-------------->
+        <div class="content-div">
+            <!--search-header-->
+            <div class="header-div">
+                <span class="burger">
+                    <i class="fa-solid fa-bars"></i>
+                </span>
+
+                <div class="search-div">
+                    <input type="search" placeholder="What you want you eat?">
+                    <button>Search</button>
+                </div>
+                <div class="cart">
+                    <i id="back" class="fa-solid fa-cart-shopping"></i>
+                    <i id="next" class="fa-solid fa-user"></i>
+
+                </div>
+            </div>
+            <!--Main-highlight-->
+            <div class="main-highlight">
+                <div class="main-header">
+                    <h2>Recommendation</h2>
+                    <div class="main-arrow">
+                        <i class="fa-solid fa-arrow-left"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <!--highlight-wrapper-->
+                <div class="highlight-wrapper">
+                    <div class="highlight-card">
+                        <img class="highlight-img" src="images/salad.jpeg" alt="">
+                        <div class="highlight-deatils">
+                            <h4>Fresh Salad</h4>
+                            <p>$42.50</p>
+                        </div>
+                    </div>
+                    <div class="highlight-card">
+                        <img class="highlight-img" src="images/coffee.jpeg" alt="">
+                        <div class="highlight-deatils">
+                            <h4>Fresh Salad</h4>
+                            <p>$42.50</p>
+                        </div>
+                    </div>
+                    <div class="highlight-card">
+                        <img class="highlight-img" src="images/coffee.jpeg" alt="">
+                        <div class="highlight-deatils">
+                            <h4>Fresh Salad</h4>
+                            <p>$42.50</p>
+                        </div>
+                    </div>
+                    <div class="highlight-card">
+                        <img class="highlight-img" src="images/salad.jpeg" alt="">
+                        <div class="highlight-deatils">
+                            <h4>Fresh Salad</h4>
+                            <p>$42.50</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--main menus / order-->
+            <div class="main-menu">
+                <div class=main-filter>
+                    <div>
+                        <h2 class="main-tittle">Menu <br> Category</h2>
+                        <div class="main-arrow">
+                            <i class="fa-solid fa-arrow-left"></i>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+
+
+                    </div>
+                    <div class="filter-wrapper">
+                        <div class="filter-card">
+                            <div class="filter-icon">
+                                <i class="fa-solid fa-utensils"></i>
+                            </div>
+                            <p>All Menus</p>
+                        </div>
+                        <div class="filter-card">
+                            <div class="filter-icon">
+                                <i class="fa-solid fa-burger"></i>
+                            </div>
+                            <p>Burger</p>
+                        </div>
+                        <div class="filter-card">
+                            <div class="filter-icon">
+                                <i class="fa-solid fa-pizza-slice"></i>
+                            </div>
+                            <p>Pizza</p>
+                        </div>
+                        <div class="filter-card">
+                            <div class="filter-icon">
+                                <i class="fa-solid fa-wine-bottle"></i>
+                            </div>
+                            <p>Wine</p>
+                        </div>
+                        <div class="filter-card">
+                            <div class="filter-icon">
+                                <i class="fa-solid fa-ice-cream"></i>
+                            </div>
+                            <p>Ice Cream</p>
+                        </div>
+                        <div class="filter-card">
+                            <div class="filter-icon">
+                                <i class="fa-solid fa-mug-hot"></i>
+                            </div>
+                            <p>Coffee</p>
+                        </div>
+                        <div class="filter-card">
+                            <div class="filter-icon">
+                                <i class="fa-solid fa-fish"></i>
+                            </div>
+                            <p>Seafood</p>
+                        </div>
+                        <div class="filter-card">
+                            <div class="filter-icon">
+                                <i class="fa-solid fa-child-reaching"></i>
+                            </div>
+                            <p>Healthy</p>
+                        </div>
+
+
+                    </div>
+                    
+                </div>
+                <!---list of food items-->
+                <div class="main-details">
+                    <h2 class="main-tittle">Choose Order</h2>
+                    <div class="detail-wrapper">
+                        <div class="detail-card">
+                            <img src="images/seafood.jpeg" alt="">
+                            <div class="deteil-desc">
+                                <div class="details-name">
+                                    <h4>Shrimp Soup</h4>
+                                    <p class="details-sub">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Voluptatum quas totam corrupti sit velit del </p>
+                                    <p class="price">$152.00</p>
+
+                                </div>
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+
+
+
+                        </div>
+                        <div class="detail-card">
+                            <img src="images/burger.jpeg" alt="">
+                            <div class="deteil-desc">
+                                <div class="details-name">
+                                    <h4>Burger</h4>
+                                    <p class="details-sub">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Voluptatum quas totam corrupti sit velit del </p>
+                                    <p class="price">$52.00</p>
+
+                                </div>
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+
+
+
+                        </div>
+                        <div class="detail-card">
+                            <img src="images/chickenmalaitikka.jpg" alt="">
+                            <div class="deteil-desc">
+                                <div class="details-name">
+                                    <h4>Chickenmalaitikka</h4>
+                                    <p class="details-sub">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Voluptatum quas totam corrupti sit velit del </p>
+                                    <p class="price">$352.00</p>
+
+                                </div>
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+
+
+
+                        </div>
+                        <div class="detail-card">
+                            <img src="images/chillipaneer.jpeg" alt="">
+                            <div class="deteil-desc">
+                                <div class="details-name">
+                                    <h4>Chillipaneer</h4>
+                                    <p class="details-sub">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Voluptatum quas totam corrupti sit velit del </p>
+                                    <p class="price">$300.00</p>
+
+                                </div>
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+
+
+
+                        </div>
+                        <div class="detail-card">
+                            <img src="images/noodles.jpeg" alt="">
+                            <div class="deteil-desc">
+                                <div class="details-name">
+                                    <h4>Noodles</h4>
+                                    <p class="details-sub">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Voluptatum quas totam corrupti sit velit del </p>
+                                    <p class="price">$500.00</p>
+
+                                </div>
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+
+
+
+                        </div>
+                        <div class="detail-card">
+                            <img src="images/pizza.jpeg" alt="">
+                            <div class="deteil-desc">
+                                <div class="details-name">
+                                    <h4>Pizza</h4>
+                                    <p class="details-sub">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Voluptatum quas totam corrupti sit velit del </p>
+                                    <p class="price">$100.00</p>
+
+                                </div>
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+    </div>
+
+<script src="script.js"> </script>
+</body>
+
+</html>
